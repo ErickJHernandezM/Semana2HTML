@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+    <h1>Bienvenido realiza aquí tu pedido</h1>
+    <div id="pastel1"><img src="./Imagenes/pastel1.jpg" alt="Pastel tematica espacial" height="600px"></div>
+    <section>
+    <form action="/accion.js" id="form1" method="post">
+        <label for="Input1"> Nombre:</label>
+        <input type="text" id="Input1" name="Input1">
+        <br><br>
+        <label for="tel1">Teléfono:</label>
+        <input type="tel" id="tel1" name="tel1" maxlength="10"><br><br>
+        <label for="correo1">Correo: </label>
+        <input type="email" id="correo1" name="correo1"><br><br>
+        <label for="Input1"> Descripción del pastel</label><br>
+        <textarea name="descripcion" rows="5" cols="40">Descripción del pastel</textarea><br>
+        <label for="Input1"> Fecha y hora de entrega</label><br>
+        <input type="datetime-local" id="fecha2" name="fecha2"><br><br>
+        <label for="Tamaño">Tamaño del pastel</label><br>
+        <input type="radio" id="grande" name="tamaños" value="Grande">
+        <label for="grande">Grande</label><br>
+        <input type="radio" id="mini" name="tamaños" value="Mini">
+        <label for="mini">Mini</label><br><br>
+        <label for="Sabor">Elige el sabor o sabores del pastel</label><br>
+        <input type="checkbox" id="topping1" name="topping1" value="Chocolate">
+        <label for="topping1">Chocolate</label><br>
+        <input type="checkbox" id="topping2" name="topping2" value="Capricho">
+        <label for="topping2">Capricho</label><br>
+        <input type="checkbox" id="topping3" name="topping3" value="Zanahoria">
+        <label for="topping3">Zanahoria</label><br>
+        <input type="checkbox" id="topping4" name="topping4" value="Moka">
+        <label for="topping4">Moka</label><br>
+        <input type="checkbox" id="topping5" name="topping5" value="Fresa">
+        <label for="topping5">Fresa</label><br>
+        <input type="checkbox" id="topping6" name="topping6" value="Dulce_de_leche">
+        <label for="topping6">Dulce de leche</label><br>
+        <input type="checkbox" id="topping7" name="topping7" value="Tres_leches">
+        <label for="topping7">Tres leches</label><br>
+        <input type="checkbox" id="topping8" name="topping8" value="Frutas">
+        <label for="topping8">Frutas</label><br><br>
+        <label for="Sabor">Elige el accesorio o accesorios</label><br>
+        <input type="checkbox" id="topping9" name="topping9" value="luminosa">
+        <label for="topping1">Vela luminosa</label><br>
+        <input type="checkbox" id="topping10" name="topping10" value="Feliz">
+        <label for="topping2">Vela feliz cumpleaños</label><br>
+        <input type="checkbox" id="topping11" name="topping11" value="Cucharas_de_plástico">
+        <label for="topping3">Cucharas de plástico</label><br>
+        <input type="checkbox" id="topping12" name="topping12" value="Vela_numero">
+        <label for="topping4">Vela numero</label><br>
+        <input type="checkbox" id="topping13" name="topping13" value="happy">
+        <label for="topping5">Vela happy birthday</label><br>
+        <input type="checkbox" id="topping14" name="topping14" value="Caja">
+        <label for="topping6">Caja de velas</label><br>
+        <input type="checkbox" id="topping15" name="topping15" value="interrogacion">
+        <label for="topping7">Vela interrogación</label><br><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Cancelar">
+    </form><br>
+    </section>
+    <a href="./Inicio.html" id="inicio"><input type="submit" value="Regresar"></a>
+    <hr>
+    <footer>
+        <div>
+        <p>Ubicanos</p>
+        <ul>
+          <li>Dirección:</li>
+          <li>Telefono:9123841412</li>
+          <li>Horarios de atención:</li>
+          <ul>
+            <li>Lunes a Viernes de 8:00am-7:00pm</li>
+            <li>Sabado de 8:00am-5:00pm</li>
+            <li>Domingo de 9:00am-3:00pm</li>
+        </ul>
+        </ul>
+        </div>
+      </footer>
+</body>
+</html>
